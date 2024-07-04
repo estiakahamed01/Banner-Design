@@ -27,3 +27,29 @@
 .head{
     text-align: center;
 }
+
+.content h2{
+    font-size: 40px;
+    color: #00f57a;
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size: 23px;
+    margin: 15px 0;
+}
+
+.content button{
+    background-color: #04aa6d;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: #068858;
+    transition: 0.5s ease-in;
+}
